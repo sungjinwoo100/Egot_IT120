@@ -5,3 +5,9 @@ Gender: Male
 Age: 24
 Birthday: March, 11 , 2001
 Contacts: 09709221667
+Birth of Place: P-4, Dalicanan Brgy; Tagbongabong R.T.R ADN
+Religion: Roman Catholic
+Father's Name: Bonifacio A. Egot Sr.
+Occupation: Farmers
+Mothers Name: Angelisa M. Egot
+Occupation: House Wife
