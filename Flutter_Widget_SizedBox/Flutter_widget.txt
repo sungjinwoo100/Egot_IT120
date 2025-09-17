@@ -1,0 +1,33 @@
+import 'package:flutter/material.dart';
+
+//Importing material design library
+void main() {
+  runApp(
+    //Our app widget tree starts from here
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('GeeksforGeeks'),
+          centerTitle: true,
+          backgroundColor: Colors.green,
+          foregroundColor: Colors.white,
+        ), //AppBar
+        body: Center(
+          child: Row(
+            children: <Widget>[
+              Container(width: 200, height: 200, color: Colors.red), //Container
+              //SizedBox Widget
+              SizedBox(width: 50),
+              Container(
+                width: 100,
+                height: 100,
+                color: Colors.blue,
+              ), //Container
+            ], //<Widget>[]
+          ), //Row
+        ), //center //Center
+      ), //Scaffold
+    ), //MaterialApp
+  );
+}
